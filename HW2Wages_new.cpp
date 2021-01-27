@@ -1,9 +1,10 @@
 #include <iostream>
 #include <string>
 using namespace std;
-float salary,sale,com;
+
 void main()
 {
+	float salary,sale,com;
 	float a,b;
 	string name;
 	cout<<"****Homework 2************\n";
