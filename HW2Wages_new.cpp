@@ -3,10 +3,9 @@
 using namespace std;
 
 void main()
-{
+{   
 	float salary,sale,com;
-	float a,b;
-	string name;
+	string name; 
 	cout<<"****Homework 2************\n";
 	cout<<"Enter Name   :";
 	cin>> name ;
@@ -18,13 +17,14 @@ void main()
 	cin>> com ;
 	cout<<"------output----------\n";  
 	cout<<"Your name = "<<name<<endl;
-	cout<<"Total Revenue  "<<com_cal(a,b)<<"Bath\n";
+	com_cal(salary,sale,com)
+	cout<<"Total Revenue  "<<com_cal(salary,sale,com)<<"Bath\n";
 	cout<<"----------------------------------\n";
 
 }
-int com_cal(float a,float b)
+int com_cal(float salary ,float sale,float com)
 {
 	(((sale*com)/100)+salary);
-	return(a,b);
+	return(salary,sale,com);
 
 }
