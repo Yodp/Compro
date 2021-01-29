@@ -1,4 +1,7 @@
-
+#include <iostream>
+using namespace std;
+void main()
+{
 	int q1,q2,q3,m,f;\
 	cout<<"==================GUIZZ==================\n";
 	cout<<"Enter first quizz (10):";
@@ -24,3 +27,4 @@
 	cout<<"\nTotal ="<<Total<<endl;
 	cout<<"\nYour score is =";
 	cout<<((Total>=60)==0?"Fail":"Pass")<<endl;
+}
