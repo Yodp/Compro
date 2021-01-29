@@ -26,5 +26,5 @@ void main()
 	Total=static_cast<float>(QuizzTotal+m+f);
 	cout<<"\nTotal ="<<Total<<endl;
 	cout<<"\nYour score is =";
-	cout<<((Total>=60)==0?"Fail":"Pass")<<endl;
+	cout<<((Total>=50)==0?"Fail":"Pass")<<endl;
 }
