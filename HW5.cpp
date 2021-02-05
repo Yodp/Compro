@@ -25,7 +25,7 @@ void main()
 			cout << "Your score 40-49 points\n";
 			break;
 		default :
-			cout << "Please enter character (A-E) only. Thank you\n";
+			cout << "Please enter character (A-F) only. Thank you\n";
 			break;
   }
 }
